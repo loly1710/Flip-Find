@@ -21,7 +21,7 @@
 
 ## Demo
 
-You can play the game online by visiting: [Demo Link https://loly1710.github.io/Flip-Find/](#)
+You can play the game online by visiting: [https://loly1710.github.io/Flip-Find/](#)
 
 ## Features
 
