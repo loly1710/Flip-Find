@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flip & Find</title>
-    <script defer src="./app.js"> </script>
-</head>
-<body>
-    
-</body>
+    <script defer src="js/app.js"></script>
+    <link rel="stylesheet " type="text/css" href="css/style.css" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">!-->
+  </head>
+  <body>
+    <section>
+      <img id = "hidden-inGamePage" src="/Flip-Find/assets/cropped_image.png" alt="Website Logo" width="200" height="200">
+      
+  
+    <h1>Welcome to Flip & Find Game</h1>
+    <p id="game-desc" style="text-align: center">
+      Test your skills by matching all the images. Are
+      you ready for the challenge?
+    </p>
+  </section>
+
+    <div class="score-box">
+      Score: <span id="score">0</span>
+  </div>
+
+    <p id="timer" class="timer">Time Left: <span id="countdown"></span></p>
+    <div class="grid-container">
+      <div class="startGame">
+        <div class="card active" level="6" column="3" row="4" align = "center">
+          <div class="front">Easy</div>
+          <div class="back">4 * 4</div>
+        </div>
+        <div class="card" level="8" column="4" row="4">
+          <div class="front">Hard</div>
+          <div class="back">4 * 6</div>
+        </div>
+        <span></span>
+        <button id = "play">Start Game</button>
+        <span></span>
+      </div>
+
+      <div class = "playGround"></div>
+    </div>
+   <i class = "fa-solid fa-repeat" style = "display: none;"></i>
+    <!--<main>
+    <p>Score: <span class="score"></span></p>
+      <button id="stop">Stop</button>
+      <section class="game-button">
+        <button id="easy">Easy</button>
+        <button id="hard">Hard</button>
+      </section>
+      <button id="restart" class="hidden">Play Again</button>
+    </main>!-->
+  </body>
 </html>
